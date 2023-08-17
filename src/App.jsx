@@ -11,6 +11,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="bg-indigo-600 w-full h-screen"></div>
       <BrowserRouter>
         <Navbar/>
           <Routes>

@@ -1,0 +1,44 @@
+/* Navbar.css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.navbar {
+  background: linear-gradient(to right, #6c63ff, #3f50b5);
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  color: Balck;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin-right: 10rem;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #9fa8da;
+}
+
+.icon {
+  margin-right: 0.25rem;
+  margin-top: 3px;
+}
