@@ -4,14 +4,9 @@ import Navbar from "./common/Navbar";
 import Footer from "./common/Footer"
 import { Home, Shop, Help, Contact} from './components';
 
-import './App.css';
-
-
-
 function App() {
   return (
     <div className="App">
-      <div className="bg-indigo-600 w-full h-screen"></div>
       <BrowserRouter>
         <Navbar/>
           <Routes>
