@@ -16,12 +16,12 @@ const Navbar = () => {
   }
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className="shadow-lg flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         {" "}
         Yene fashion{" "}
       </h1>
-      <ul className="hidden md:flex">
+      <ul className="hidden font-bold md:flex">
         {Links.map((link) => (
           <li key={link.name} className="p-4">
             <a href={link.link}>{link.name}</a>

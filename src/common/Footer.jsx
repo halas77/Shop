@@ -16,9 +16,7 @@ const Footer = () => {
         </h1>
         <p className="py-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-          maxime quo? Dicta quae tenetur minima. Libero magnam error molestias
-          cupiditate iste dolor minus eveniet incidunt reiciendis quasi. Labore,
-          ducimus maxime!
+          maxime quo? 
         </p>
         <div className="flex space-x-10 justify-center md:w-[75%] my-6">
           <FaFacebookSquare size={30} />
